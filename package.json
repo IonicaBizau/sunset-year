@@ -1,0 +1,33 @@
+{
+  "name": "sunset-year",
+  "version": "1.0.0",
+  "description": "Sunset times during the year, every week.",
+  "main": "lib/index.js",
+  "directories": {
+    "example": "example"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/IonicaBizau/sunset-year.git"
+  },
+  "keywords": [
+    "sunset"
+  ],
+  "author": "Ionică Bizău <bizauionica@gmail.com> (http://ionicabizau.net)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/IonicaBizau/sunset-year/issues"
+  },
+  "homepage": "https://github.com/IonicaBizau/sunset-year#readme",
+  "dependencies": {
+    "daty": "^1.0.1",
+    "ipinfo": "^1.2.1",
+    "suncalc": "^1.7.0"
+  },
+  "devDependencies": {
+    "le-table": "^4.2.1"
+  }
+}
