@@ -1,18 +1,22 @@
-# sunset-year [![PayPal](https://img.shields.io/badge/%24-paypal-f39c12.svg)][paypal-donations] [![Version](https://img.shields.io/npm/v/sunset-year.svg)](https://www.npmjs.com/package/sunset-year) [![Downloads](https://img.shields.io/npm/dt/sunset-year.svg)](https://www.npmjs.com/package/sunset-year) [![Get help on Codementor](https://cdn.codementor.io/badges/get_help_github.svg)](https://www.codementor.io/johnnyb?utm_source=github&utm_medium=button&utm_term=johnnyb&utm_campaign=github)
+
+# sunset-year
+
+ [![PayPal](https://img.shields.io/badge/%24-paypal-f39c12.svg)][paypal-donations] [![AMA](https://img.shields.io/badge/ask%20me-anything-1abc9c.svg)](https://github.com/IonicaBizau/ama) [![Version](https://img.shields.io/npm/v/sunset-year.svg)](https://www.npmjs.com/package/sunset-year) [![Downloads](https://img.shields.io/npm/dt/sunset-year.svg)](https://www.npmjs.com/package/sunset-year) [![Get help on Codementor](https://cdn.codementor.io/badges/get_help_github.svg)](https://www.codementor.io/johnnyb?utm_source=github&utm_medium=button&utm_term=johnnyb&utm_campaign=github)
 
 > Sunset times during the year, every week.
 
-## Installation
+## :cloud: Installation
 
 ```sh
 $ npm i --save sunset-year
 ```
 
-## Example
+
+## :clipboard: Example
+
+
 
 ```js
-"use strict";
-
 const sunset = require("sunset-year")
     , LeTable = require("le-table")
     ;
@@ -42,7 +46,8 @@ sunset((err, sunsets) => {
 // +------------------+------------------+
 ```
 
-## Documentation
+## :memo: Documentation
+
 
 ### `sunsets(callback)`
 Gets a list of objects containing the sunset times each week, during the year.
@@ -50,13 +55,13 @@ Gets a list of objects containing the sunset times each week, during the year.
 #### Params
 - **Function** `callback`: The callback function.
 
-## How to contribute
+
+
+## :yum: How to contribute
 Have an idea? Found a bug? See [how to contribute][contributing].
 
-## Where is this library used?
-If you are using this library in one of your projects, add it in this list. :sparkles:
 
-## License
+## :scroll: License
 
 [MIT][license] © [Ionică Bizău][website]
 
