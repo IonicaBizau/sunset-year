@@ -1,6 +1,6 @@
 {
   "name": "sunset-year",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Sunset times during the year, every week.",
   "main": "lib/index.js",
   "directories": {
@@ -29,5 +29,17 @@
   },
   "devDependencies": {
     "le-table": "^4.2.1"
-  }
+  },
+  "files": [
+    "bin/",
+    "app/",
+    "lib/",
+    "dist/",
+    "src/",
+    "resources/",
+    "menu/",
+    "scripts/",
+    "cli.js",
+    "index.js"
+  ]
 }
